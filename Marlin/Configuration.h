@@ -2207,6 +2207,8 @@
 // If the servo can't reach the requested position, increase it.
 #define SERVO_DELAY { 750 }
 
+#define FAN_SOFT_PWM 
+
 // Only power servos during movement, otherwise leave off to prevent jitter
 //#define DEACTIVATE_SERVOS_AFTER_MOVE
 
